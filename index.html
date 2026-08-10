@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>워홀메이트</title>
+  <style>
+    :root { --brand:#83b94e; --dark:#2f5f25; --bg:#f7f8f5; --ink:#15171d; --muted:#6d746b; --line:#e8ece3; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",Arial,sans-serif; color:var(--ink); background:var(--bg); }
+    header { padding:28px 20px; background:#fff; border-bottom:1px solid var(--line); }
+    .wrap { max-width:860px; margin:0 auto; }
+    .brand { display:flex; align-items:center; gap:12px; font-weight:900; font-size:24px; color:var(--dark); }
+    .logo { width:44px; height:44px; border-radius:14px; background:var(--brand); color:#fff; display:grid; place-items:center; font-weight:900; }
+    nav { margin-top:18px; display:flex; flex-wrap:wrap; gap:10px; }
+    nav a { color:var(--dark); text-decoration:none; font-weight:800; padding:9px 12px; border:1px solid var(--line); border-radius:999px; background:#fff; }
+    main { padding:34px 20px 70px; }
+    .hero { background:#fff; border:1px solid var(--line); border-radius:26px; padding:34px 24px; box-shadow:0 12px 30px rgba(21,23,29,.06); }
+    h1 { margin:0; font-size:34px; line-height:1.2; letter-spacing:-.02em; }
+    h2 { margin:34px 0 12px; font-size:22px; }
+    p, li { color:var(--muted); line-height:1.75; font-size:15px; }
+    .cta { display:inline-block; margin-top:18px; padding:13px 18px; border-radius:14px; background:var(--brand); color:#fff; text-decoration:none; font-weight:900; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:14px; margin-top:18px; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:18px; padding:18px; }
+    footer { padding:26px 20px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand"><div class="logo">W</div>워홀메이트</div>
+      <nav>
+        <a href="./terms.html">이용약관</a>
+        <a href="./privacy.html">개인정보처리방침</a>
+        <a href="./community-policy.html">커뮤니티 운영정책</a>
+        <a href="./support.html">문의</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <section class="hero">
+        <h1>호주 워홀 생활을 함께 정리하는 메이트</h1>
+        <p>워홀메이트는 호주 워킹홀리데이 준비와 현지 생활에 필요한 구인구직, 쉐어하우스, 모임, 커뮤니티, 가이드 정보를 제공하는 모바일 앱입니다.</p>
+        <a class="cta" href="./privacy.html">개인정보처리방침 보기</a>
+      </section>
+      <h2>주요 기능</h2>
+      <div class="grid">
+        <div class="card"><strong>구인구직</strong><p>지역, 태그, 급여 단위 기준으로 일자리 정보를 확인합니다.</p></div>
+        <div class="card"><strong>쉐어하우스</strong><p>방있어요, 방구해요 게시글을 확인하고 문의할 수 있습니다.</p></div>
+        <div class="card"><strong>모임</strong><p>번개 모임을 만들고 참가자와 대화방에서 소통합니다.</p></div>
+        <div class="card"><strong>커뮤니티</strong><p>질문, 정보·후기 등 워홀 생활 정보를 나눕니다.</p></div>
+      </div>
+      <h2>앱 정보</h2>
+      <p>앱 이름: 워홀메이트<br />운영자 연락처: woholmoney@gmail.com<br />대표 도메인: 이 GitHub Pages 주소</p>
+    </div>
+  </main>
+  <footer><div class="wrap">© 워홀메이트. All rights reserved.</div></footer>
+</body>
+</html>
